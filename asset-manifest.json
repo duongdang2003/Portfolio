@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.5966bc3c.css",
+    "main.js": "/Portfolio/static/js/main.b16b676a.js",
+    "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
+    "static/media/Gameplay.mp4": "/Portfolio/static/media/Gameplay.aa19aa160d71481c267a.mp4",
+    "static/media/gameplay.mp4": "/Portfolio/static/media/gameplay.899ac1081c0120bd8089.mp4",
+    "static/media/delta1.png": "/Portfolio/static/media/delta1.7426af208501d3de52e4.png",
+    "static/media/gameplay.png": "/Portfolio/static/media/gameplay.041a986a97769f7a11bd.png",
+    "static/media/mainmenu.png": "/Portfolio/static/media/mainmenu.996a91e81f9248356b90.png",
+    "static/media/gameplay2.png": "/Portfolio/static/media/gameplay2.f809385c29380e9fe75f.png",
+    "static/media/blasphemous.jpg": "/Portfolio/static/media/blasphemous.784a1b37c0449dd61899.jpg",
+    "static/media/warthunder.jpg": "/Portfolio/static/media/warthunder.cf4bfda7f744315e0998.jpg",
+    "static/media/stardew.jpg": "/Portfolio/static/media/stardew.23c524f6667f4c6494b6.jpg",
+    "static/media/zelda.jpg": "/Portfolio/static/media/zelda.f7f60c659fb21c07d3fa.jpg",
+    "static/media/p1.png": "/Portfolio/static/media/p1.347f2d8e95e85a09caf7.png",
+    "static/media/EHSMB.TTF": "/Portfolio/static/media/EHSMB.1455671bca5476c7d76d.TTF",
+    "static/media/p3.png": "/Portfolio/static/media/p3.f5d0364955d067851f94.png",
+    "static/media/logo.svg": "/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.5966bc3c.css.map": "/Portfolio/static/css/main.5966bc3c.css.map",
+    "main.b16b676a.js.map": "/Portfolio/static/js/main.b16b676a.js.map",
+    "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5966bc3c.css",
+    "static/js/main.b16b676a.js"
+  ]
+}
