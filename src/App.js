@@ -5,13 +5,14 @@ import Main from "./pages/Main";
 import MiniFantasy from "./components/MiniFantasy";
 import TillICollapse from "./components/TilICollapse";
 import MrBeeAndMsFla from "./components/MrBeeAndMsFla";
+import RuneFinder from "./components/RuneFinder";
 
 function App() {
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename={process.env.PUBLIC_URL}>
 			<Routes>
 				<Route path="/" index element={<Main />} />
-				<Route path="Mini Fantasy" element={<MiniFantasy />} />
+				<Route path="Rune Finder" element={<RuneFinder />} />
 				<Route path="Til I Collapse" element={<TillICollapse />} />
 				<Route path="Mr Bee And Ms Fla" element={<MrBeeAndMsFla />} />
 			</Routes>

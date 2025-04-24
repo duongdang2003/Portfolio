@@ -5,6 +5,7 @@ import Pic3 from "../images/blasphemous.jpg";
 import Pic4 from "../images/stardew.jpg";
 import MrBeeAndMsFla from "../images/MrBee&MsFla/gameplay.png";
 import TilICollapse from "../images/TilICollapse/mainmenu.png";
+import RuneFinder from "../images/RuneFinder/gameplay.png";
 
 export default function Projects() {
 	return (
@@ -30,12 +31,13 @@ export default function Projects() {
 					shortDescription="Project made for competition Topexbox Accelerator."
 				/>
 				<ProjectCard
-					image={Pic4}
+					image={RuneFinder}
 					name="Rune Finder"
 					genre="Platform, Puzzle"
-					platform="Window, OS"
+					platform="Window"
 					technology="Unity"
 					member="1"
+					shortDescription="Project made for game jam Kenny."
 				/>
 			</div>
 		</div>

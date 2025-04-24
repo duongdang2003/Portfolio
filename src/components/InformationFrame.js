@@ -18,7 +18,7 @@ export default function InformationFrame(props) {
 				</div>
 				<img
 					src={props.image}
-					style={{ width: "150px", imageRendering: "pixelated" }}
+					style={{ width: "250px", imageRendering: "pixelated" }}
 				/>
 			</div>
 			<div className="col-span-8 flex flex-col row-span-2">

@@ -2,6 +2,7 @@ import ProjectImage from "./ProjectImage";
 import ProjectVideo from "./ProjectVideo";
 import { useEffect, useState } from "react";
 import SourceIcon from "@mui/icons-material/Source";
+import FileDownloadIcon from "@mui/icons-material/FileDownload";
 
 import GamePlayVideo from "../images/MrBee&MsFla/gameplay.mp4";
 import UI from "../images/MrBee&MsFla/mainmenu.png";
@@ -57,12 +58,24 @@ export default function MrBeeAndMsFla() {
 					<hr />
 					<div className="flex justify-center p-5">
 						<a
-							href="https://github.com/duongdang2003/MrBeeAndMsFla.git"
+							href="https://github.com/duongdang2003/Mr-Bee-Ms-Fla-Build"
 							target="_blank"
-							className="flex justify-center items-center"
+							className="px-2"
 						>
 							<button
-								class={`inline-flex items-center gap-2 rounded border border-[#1fb800] px-6 py-2 text-sm font-semibold text-[#1fb800] transition-all hover:shadow-lg disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none`}
+								class={`inline-flex items-center gap-2 rounded border border-[#40ad7e] px-6 py-2 text-sm font-semibold text-[#40ad7e] transition-all hover:shadow-lg disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none`}
+							>
+								<FileDownloadIcon />
+								Download Game
+							</button>
+						</a>
+						<a
+							href="https://github.com/duongdang2003/MrBeeAndMsFla"
+							target="_blank"
+							className="px-2"
+						>
+							<button
+								class={`inline-flex items-center gap-2 rounded border border-[#40ad7e] px-6 py-2 text-sm font-semibold text-[#40ad7e] transition-all hover:shadow-lg disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none`}
 							>
 								<SourceIcon />
 								View Source

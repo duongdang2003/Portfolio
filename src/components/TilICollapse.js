@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import ProjectImage from "./ProjectImage";
 import ProjectVideo from "./ProjectVideo";
 import FileDownloadIcon from "@mui/icons-material/FileDownload";
+import SourceIcon from "@mui/icons-material/Source";
 
 import MainMenu from "../images/TilICollapse/mainmenu.png";
 import GameplayPic from "../images/TilICollapse/gameplay.png";
@@ -65,11 +66,24 @@ export default function TillICollapse() {
 						<a
 							href="https://github.com/duongdang2003/Til-I-Collapse-Build"
 							target="_blank"
+							className="px-2"
 						>
 							<button
 								class={`inline-flex items-center gap-2 rounded border border-[#1dad9a] px-6 py-2 text-sm font-semibold text-[#1dad9a] transition-all hover:shadow-lg disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none`}
 							>
 								<FileDownloadIcon />
+								Download Game
+							</button>
+						</a>
+						<a
+							href="https://github.com/duongdang2003/Til-I-Collapse-Source"
+							target="_blank"
+							className="px-2"
+						>
+							<button
+								class={`inline-flex items-center gap-2 rounded border border-[#1dad9a] px-6 py-2 text-sm font-semibold text-[#1dad9a] transition-all hover:shadow-lg disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none`}
+							>
+								<SourceIcon />
 								View Source
 							</button>
 						</a>
